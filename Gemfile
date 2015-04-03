@@ -20,6 +20,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #Added manually
 gem 'devise'
+gem 'bootstrap-sass'
 
 
 
