@@ -3,7 +3,7 @@
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any styles
@@ -14,8 +14,8 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 #logo {
 	font-size: 26px;
@@ -24,16 +24,14 @@
 	letter-spacing: -1px;
 	padding: 15px 0;
 	a {
-		color: #2f363C;
+		color: #2F363E;
 	}
-
 }
 
 #main_content {
 	#content {
 		float: none;
 	}
-
 	padding-bottom: 100px;
 	.link {
 		padding: 2em 1em;
@@ -41,18 +39,17 @@
 		.title {
 
 			a {
-				color: #ff4500;
+				color: #FF4500;
 			}
-		}	
+		}
 	}
-
-	.comments-title {
+	.comments_title {
 		margin-top: 2em;
 	}
 	#comments {
 		.comment {
 			padding: 1em 0;
-			border-top: 1px solid #c9c9c9;
+			border-top: 1px solid #E9E9E9;
 			.lead {
 				margin-bottom: 0;
 			}
